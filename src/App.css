@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.Alt-Row {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.lft-ptn {
+  background-color:#F8F8F8
+  /* background-color:#E10707;
+  height: auto!important; */
+}
+.map-location {
+  margin-top: 5px;
+  color:#E10707;
+  font-size: 20px;
+}
+.frm-cls {
+  margin-top: 50px;
+}
+.frm-label {
+  margin: 0!important;
+  color:#007bff
+}
+.frm-label>h5 {
+  text-align: left!important
+}
+select {
+  width: 250px!important;
+  background: #fff;
+  /* color: #a3a3a3 !important; */
+  font: inherit;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  border: 0 !important;
+  outline: 0 !important;
+  padding: 22px 18px;
+  margin: 0 auto !important;
+}
+.frm-area {
+  background-color: #F8F8F8
+}
+.form-control:focus {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1) !important;
+}
+
+.Map-Message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
